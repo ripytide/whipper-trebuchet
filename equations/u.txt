@@ -1,0 +1,32 @@
+u=(h*sin⁡(180-y))
+
+h=(sqrt(p^2+q^2-2pq*cos⁡(s)))
+
+s=(180-y-r)
+
+q=((p*sin⁡(r))/sin⁡(y))
+
+r=(arcsin((a/2)*sin⁡(d)/p))
+
+p=(sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))
+
+
+
+u=((sqrt((sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))^2+(((sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))*sin⁡(((sin^-1)((a/2)*sin⁡(d)/(sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))))))/sin⁡(y))^2-2(sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))(((sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))*sin⁡(((sin^-1)((a/2)*sin⁡(d)/(sqrt(b^2+(a/2)^2-2(a/2)(b)*cos⁡(d)))))))/sin⁡(y))*cos⁡((180-y-r))))*sin⁡(180-y))
+
+simplified
+
+(sqrt(8*sin((y))*sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))*cos((-y-r+180))*a*b*cos((d))-8*sin((y))*sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))*cos((-y-r+180))*(b)^(2)-2*sin((y))*sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))*cos((-y-r+180))*(a)^(2)-4*((sin((y))))^(2)*a*b*cos((d))-4*((sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))))^(2)*a*b*cos((d))+4*((sin((y))))^(2)*(b)^(2)+((sin((y))))^(2)*(a)^(2)+4*((sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))))^(2)*(b)^(2)+((sin(((s*i*a*sin((d)))/(n*sqrt(-4*a*b*cos((d))+4*(b)^(2)+(a)^(2)))))))^(2)*(a)^(2))*sin((-y+180)))/(2*sin((y)))
+
+(Sqrt[8*Sin[y]*Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]*Cos[(-y-r+180)]*a*b*Cos[d]-8*Sin[y]*Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]*Cos[(-y-r+180)]*b^2-2*Sin[y]*Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]*Cos[(-y-r+180)]*a^2-4*Sin[y]^2*a*b*Cos[d]-4*Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]^2*a*b*Cos[d]+4*Sin[y]^2*b^2+Sin[y]^2*a^2+4*Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]^2*b^2+Sin[s*i*a*Sin[d]/(n*Sqrt[-4*a*b*Cos[d]+4*b^2+a^2])]^2*a^2]*Sin[(-y+180)])/2*Sin[y]
+
+
+https://atozmath.com/SetTheory.aspx?q=cardinality&q1=2%3E%3Dx%3C%3D12%3B%20x%20in%20N%60x%3C%3D1%3B%20x%20in%20N%601%3C%3Dx%3C5%3B%20x%20in%20N%60%608%60%7CA%7C&do=1#tblSolution
+
+theta = 180 - arcsin((xSqrt(2)/2)/(Sqrt(x^2+y^2-xySqrt(2))))
+
+real theta for excel = =IF(B2^2-A2^2<A2^2,180 - (180/PI()*(ASIN((B2*SQRT(2)/2)/(SQRT(B2^2+A2^2-B2*A2*SQRT(2)))))),(180/PI()*(ASIN((B2*SQRT(2)/2)/(SQRT(B2^2+A2^2-B2*A2*SQRT(2)))))))
+
+cosine rule version of theta = 180 - arccos((2b^2-abSQRT(2))/(2bSQRT(a^2+b^2-abSQRT(2))))
+
+
